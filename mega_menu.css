@@ -1,0 +1,91 @@
+#header>#container>#subcontainer>#menu{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-auto-flow: column;
+    direction: rtl;
+    position: relative;
+}
+
+#header>#container>#subcontainer>#menu>.menu{
+    border: 1px solid transparent;
+    grid-template-columns: max-content;
+    text-align: center;
+    line-height: 370%;
+    overflow: hidden;
+}
+
+#header>#container>#subcontainer>#menu>.menu>.submenu{
+    border: 1px solid darkblue;
+    height: 700%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top:90%;
+    visibility: hidden;
+}
+
+#header>#container>#subcontainer>#menu>.m1:hover>.sub1{
+    visibility: visible;
+}
+#header>#container>#subcontainer>#menu>.m1>.sub1:hover{
+    visibility: visible;
+}
+
+
+#header>#container>#subcontainer>#menu>.m2:hover>.sub2{
+    visibility: visible;
+}
+#header>#container>#subcontainer>#menu>.m2>.sub2:hover{
+    visibility: visible;
+}
+
+
+#header>#container>#subcontainer>#menu>.m3:hover>.sub3{
+    visibility: visible;
+}
+#header>#container>#subcontainer>#menu>.m3>.sub3:hover{
+    visibility: visible;
+}
+
+
+#header>#container>#subcontainer>#menu>.m4:hover>.sub4{
+    visibility: visible;
+}
+#header>#container>#subcontainer>#menu>.m4>.sub4:hover{
+    visibility: visible;
+}
+
+
+#header>#container>#subcontainer>#menu>.m5:hover>.sub5{
+    visibility: visible;
+}
+#header>#container>#subcontainer>#menu>.m5>.sub5:hover{
+    visibility: visible;
+}
+
+
+#header>#container>#subcontainer>#menu>.m6:hover>.sub6{
+    visibility: visible;
+}
+#header>#container>#subcontainer>#menu>.m6>.sub6:hover{
+    visibility: visible;
+}
+
+
+#header>#container>#subcontainer>#menu>.m7:hover>.sub7{
+    visibility: visible;
+}
+#header>#container>#subcontainer>#menu>.m7>.sub7:hover{
+    visibility: visible;
+}
+
+
+#header>#container>#subcontainer>#menu>.m8:hover>.sub8{
+    visibility: visible;
+}
+
+#header>#container>#subcontainer>#menu>.m8>.sub8:hover{
+    visibility: visible;
+}
