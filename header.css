@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    border: 1px solid rosybrown;
+    height: 15pc;
+    
+}
+
+#header>#commercial{
+    border: 1px solid forestgreen;
+    height: 3pc;
+}
+
+#header>#container{
+    border: 1px solid saddlebrown;
+    height:12pc;
+    display: flex;
+    justify-content:center;
+}
+
+#header>#container>#subcontainer{
+    border: 1px solid transparent;
+    width:55%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2pc;
+    position: relative;
+}
+
+#header>#container>#subcontainer>#searchBar{
+    border: 1px solid slateblue;
+    width:100%;
+    height: 46%;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 7px;
+}
+
+#header>#container>#subcontainer>#searchBar>input{
+    width: 93%;
+    border: none;
+    direction: rtl;
+    border: 1px solid transparent;
+    
+}
+
+#header>#container>#subcontainer>#searchBar>img{
+    height: 70%;
+    width: 6%;
+    padding-top: 6px;
+    border: 1px solid transparent;
+}
+
+#header>#container>#subcontainer>#menu{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-auto-flow: column;
+    direction: rtl;
+    position: relative;
+}
+
+#header>#container>#subcontainer>#menu>.menu{
+    border: 1px solid transparent;
+    grid-template-columns: max-content;
+    text-align: center;
+    line-height: 370%;
+    overflow: hidden;
+}
+
+ 
+#header>#container>#logo{
+    border: 1px solid crimson;
+    width: 15%;
+    height: 50%;
+    margin-top:2pc;
+    margin-left: 1pc;
+}
+
+#header>#container>#bag{
+    border: 1px solid transparent;
+    width: 10%;
+    height:20%;
+    margin-top: 2pc;
+    margin-right: 2pc;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+#header>#container>#bag>img{
+    border: 1px solid transparent;
+    height: 95%;
+    width: 25%;
+    margin-top: -8px;
+}
+
