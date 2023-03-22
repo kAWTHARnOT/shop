@@ -1,0 +1,5 @@
+            <div id="slideContainer">
+                <div id="gallery"></div>
+                <div id="right"></div>
+                <div id="left"></div>
+            </div>
