@@ -5,13 +5,13 @@ body{
 
 #header{
     border: 1px solid rosybrown;
-    height: 15pc;
-    
+    height: 12.5pc;
+    z-index: 0;
 }
 
 #header>#commercial{
     border: 1px solid forestgreen;
-    height: 3pc;
+    height: 2.5pc;
 }
 
 #header>#container{
